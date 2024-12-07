@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD in Robotic
+role: PhD in Robotics
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
