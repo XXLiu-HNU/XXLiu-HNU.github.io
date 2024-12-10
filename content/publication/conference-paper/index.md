@@ -31,8 +31,7 @@ publication_short: In *ICW*
 abstract: With the advancement of drone technology, drone swarms play a vital role in various applications. In drone swarms, path planning is crucial for ensuring both the efﬁciency and safety of swarm operations. However, in dynamic environments, communication delays may lead to instability and inefﬁciency in path planning. This paper addresses this issue by proposing a drone swarm path planning algorithm that takes communication delays into account. By analyzing the impact of communication delays on path planning and designing corresponding strategies to optimize the planning process, this algorithm aims to enhance the efﬁciency and safety of drone swarm operations. Through experimental validation, our computation time is reduced by 10.24%, proving the efﬁciency of the proposed method.
 
 # Summary. An optional shortened abstract.
-summary: Index Terms—drone swarm, path planning, communication
-delay, dynamic environments, topological planning
+summary: Index Terms—drone swarm, path planning, communication delay, dynamic environments, topological planning
 
 tags:
   - Swarm Motion Planning
