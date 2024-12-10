@@ -1,5 +1,5 @@
 ---
-title: 'An example conference paper'
+title: 'Distributed Drone Swarm Trajectory Planner Using Topology Planning Under Communication Delay'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -13,7 +13,7 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2024-10-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,13 +28,14 @@ publication_types: ['paper-conference']
 publication: In *Hugo Blox Builder Conference*
 publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: With the advancement of drone technology, drone swarms play a vital role in various applications. In drone swarms, path planning is crucial for ensuring both the efﬁciency and safety of swarm operations. However, in dynamic environments, communication delays may lead to instability and inefﬁciency in path planning. This paper addresses this issue by proposing a drone swarm path planning algorithm that takes communication delays into account. By analyzing the impact of communication delays on path planning and designing corresponding strategies to optimize the planning process, this algorithm aims to enhance the efﬁciency and safety of drone swarm operations. Through experimental validation, our computation time is reduced by 10.24%, proving the efﬁciency of the proposed method.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Index Terms—drone swarm, path planning, communication
+delay, dynamic environments, topological planning
 
 tags:
-  - Large Language Models
+  - Swarm Motion Planning
 
 # Display this page in the Featured widget?
 featured: true
