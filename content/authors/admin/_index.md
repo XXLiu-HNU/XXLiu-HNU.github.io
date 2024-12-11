@@ -183,4 +183,6 @@ awards:
 
 ## About Me
 
-Xingxun Liu is a PhD student at Hunan University, and his main research direction is UAV swarm planning and control. In 2024, Xingxun Liu received his bachelor's degree in automation from the School of Electrical and Information Engineering of Hunan University, and continued to study for a doctorate degree at the National Engineering Research Center for Robotic Vision Perception and Control Technology under the guidance of Academician [Wang Yaonan](https://eeit.hnu.edu.cn/info/1277/4490.htm)(and Professor [Miao Zhiqiang](https://eeit.hnu.edu.cn/info/1544/5187.htm).
+Xingxun Liu is a PhD student at Hunan University, and his main research direction is UAV swarm planning and control. In 2024, Xingxun Liu received his bachelor's degree in automation from the School of Electrical and Information Engineering of Hunan University, and continued to study for a doctorate degree at the National Engineering Research Center for Robotic Vision Perception and Control Technology under the guidance of Academician [Wang Yaonan](https://eeit.hnu.edu.cn/info/1277/4490.htm)and Professor [Miao Zhiqiang](https://eeit.hnu.edu.cn/info/1544/5187.htm).
+
+I hope to enable drone swarms to perform tasks autonomously, robustly, and flexibly, and I focus on how to deploy algorithms into actual unmanned systems to make drones fly more smoothly.
