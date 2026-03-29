@@ -1,12 +1,12 @@
 :root {
-  --bg: hsl(0, 0%, 7%);
-  --panel: hsl(240, 2%, 12%);
-  --panel-2: hsl(240, 2%, 13%);
-  --line: hsl(0, 0%, 22%);
-  --text: hsl(0, 0%, 98%);
-  --muted: hsl(0, 0%, 84%);
-  --accent: hsl(45, 100%, 72%);
-  --accent-2: hsl(35, 100%, 68%);
+  --bg: #f7f8fb;
+  --panel: #ffffff;
+  --panel-2: #f2f4f8;
+  --line: #d8dee8;
+  --text: #1e2533;
+  --muted: #4b5568;
+  --accent: #d9a322;
+  --accent-2: #b78613;
 }
 
 * {
@@ -47,7 +47,7 @@ body {
   border-radius: 16px;
   padding: 22px;
   margin-bottom: 18px;
-  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 26px rgba(24, 33, 53, 0.08);
 }
 
 .hero {
@@ -104,7 +104,7 @@ h2 {
 
 .btn.primary {
   background: var(--accent);
-  color: var(--bg);
+  color: #ffffff;
   font-weight: 600;
   border-color: transparent;
 }
@@ -114,6 +114,7 @@ h2 {
   overflow: hidden;
   border: 1px solid var(--line);
   min-height: 250px;
+  background: #ffffff;
 }
 
 .hero-image-wrap img {
