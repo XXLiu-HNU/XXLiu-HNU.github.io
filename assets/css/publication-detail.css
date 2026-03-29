@@ -1,12 +1,12 @@
 :root {
-  --bg: #0b0f14;
-  --panel: #121821;
-  --panel-2: #1a2230;
-  --line: #2d3a4f;
-  --text: #e8edf6;
-  --muted: #a8b3c6;
-  --accent: #f4c95d;
-  --accent-2: #ffd97d;
+  --bg: hsl(0, 0%, 7%);
+  --panel: hsl(240, 2%, 12%);
+  --panel-2: hsl(240, 2%, 13%);
+  --line: hsl(0, 0%, 22%);
+  --text: hsl(0, 0%, 98%);
+  --muted: hsl(0, 0%, 84%);
+  --accent: hsl(45, 100%, 72%);
+  --accent-2: hsl(35, 100%, 68%);
 }
 
 * {
@@ -17,7 +17,7 @@ html,
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: radial-gradient(circle at 10% 10%, #1b2534 0%, var(--bg) 48%);
+  background: var(--bg);
   color: var(--text);
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .card {
-  background: linear-gradient(180deg, var(--panel), var(--panel-2));
+  background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 16px;
   padding: 22px;
@@ -94,7 +94,7 @@ h2 {
   border: 1px solid var(--line);
   color: var(--text);
   text-decoration: none;
-  background: #212b3a;
+  background: var(--panel-2);
   font-size: 0.92rem;
 }
 
@@ -104,7 +104,7 @@ h2 {
 
 .btn.primary {
   background: var(--accent);
-  color: #1b1b1b;
+  color: var(--bg);
   font-weight: 600;
   border-color: transparent;
 }
@@ -125,7 +125,7 @@ h2 {
 
 p {
   margin: 0 0 12px;
-  color: #d6deec;
+  color: var(--muted);
   line-height: 1.72;
 }
 
@@ -140,9 +140,9 @@ p {
   border: 1px solid var(--line);
   border-radius: 999px;
   padding: 5px 11px;
-  color: #c9d3e5;
+  color: var(--muted);
   font-size: 0.85rem;
-  background: #1b2433;
+  background: var(--panel-2);
 }
 
 .section-head {
@@ -189,7 +189,7 @@ p {
 
 pre {
   margin: 0;
-  background: #0d1320;
+  background: var(--panel-2);
   border: 1px solid var(--line);
   border-radius: 10px;
   padding: 14px;
@@ -198,7 +198,7 @@ pre {
 
 code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  color: #d7e1f2;
+  color: var(--text);
   font-size: 0.88rem;
 }
 
